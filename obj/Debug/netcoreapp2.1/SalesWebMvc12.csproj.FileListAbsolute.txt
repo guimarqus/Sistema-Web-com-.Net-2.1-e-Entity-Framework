@@ -30,4 +30,3 @@ C:\Users\guilherme.guimaraes\source\repos\VendasWebMvc12\SalesWebMvc12\obj\Debug
 C:\Users\guilherme.guimaraes\source\repos\VendasWebMvc12\SalesWebMvc12\obj\Debug\netcoreapp2.1\SalesWebMvc12.pdb
 C:\Users\guilherme.guimaraes\source\repos\VendasWebMvc12\SalesWebMvc12\obj\Debug\netcoreapp2.1\SalesWebMvc12.csproj.AssemblyReference.cache
 C:\Users\guilherme.guimaraes\source\repos\VendasWebMvc12\SalesWebMvc12\obj\Debug\netcoreapp2.1\SalesWeb.204FFB2E.Up2Date
-C:\Users\guilherme.guimaraes\source\repos\VendasWebMvc12\SalesWebMvc12\obj\Debug\netcoreapp2.1\Razor\Views\Department\Index.g.cshtml.cs
