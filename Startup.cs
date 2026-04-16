@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Data;
 using SalesWebMvc12.Data;
+using SalesWebMvc12.Services;
 
 namespace SalesWebMvc12
 {
@@ -43,6 +44,7 @@ namespace SalesWebMvc12
             services.AddDbContext<SalesWebMvcContext>(options =>
                 options.UseMySql(connectionString));
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

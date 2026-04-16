@@ -1,0 +1,22 @@
+﻿using SalesWebMvc.Data;
+using SalesWebMvc12.Models;
+using System.Collections.Generic;
+using System.Linq;
+namespace SalesWebMvc12.Services
+{
+    public class SellerService
+    {
+        private readonly SalesWebMvcContext _context;
+
+        public SellerService(SalesWebMvcContext context)
+        {
+            _context = context;
+        }
+
+        public List<Seller> FindAll()
+        {
+            return _context.Seller.ToList();
+
+        }
+    }
+}
