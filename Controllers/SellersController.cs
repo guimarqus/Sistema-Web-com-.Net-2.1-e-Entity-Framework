@@ -2,6 +2,7 @@
 using SalesWebMvc12.Services;
 using SalesWebMvc12.Models;
 using SalesWebMvc12.Models.ViewModes;
+using Microsoft.AspNetCore.Antiforgery.Internal;
 
 namespace SalesWebMvc12.Controllers
 {
@@ -34,6 +35,29 @@ namespace SalesWebMvc12.Controllers
         {
             _sellerService.Insert(seller);
             return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var obj = _sellerService.FindById(id.Value);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            return View(obj);
+        }
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        public IActionResult Delete(int id)
+        {
+            _sellerService.Remove(id);
+            return RedirectToAction(nameof(Index));
+
+
         }
     }
 }

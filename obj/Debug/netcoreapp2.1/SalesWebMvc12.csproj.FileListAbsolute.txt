@@ -37,3 +37,4 @@ C:\Users\guilherme.guimaraes\source\repos\VendasWebMvc12\SalesWebMvc12\obj\Debug
 C:\Users\guilherme.guimaraes\source\repos\VendasWebMvc12\SalesWebMvc12\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.g.cshtml.cs
 C:\Users\guilherme.guimaraes\source\repos\VendasWebMvc12\SalesWebMvc12\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Index.g.cshtml.cs
 C:\Users\guilherme.guimaraes\source\repos\VendasWebMvc12\SalesWebMvc12\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Create.g.cshtml.cs
+C:\Users\guilherme.guimaraes\source\repos\VendasWebMvc12\SalesWebMvc12\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Delete.g.cshtml.cs
